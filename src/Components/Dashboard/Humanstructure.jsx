@@ -6,6 +6,8 @@ import { Heart } from 'lucide-react'
 import data from '../../data'
 import HealthStatuscard from './HealthStatuscard'
 import leg from '../../assets/Leg.png'
+import heart from '../../assets/Heart.png'
+
 
 function Humanstructure() {
   
@@ -30,7 +32,7 @@ function Humanstructure() {
 
       <div className="dot dot-heart" title="Heart - Healthy">
          <div className="card">
-      <img src={`${data[0].image1}`}  className='image-1'/>
+      <img src={image}  className='image-1'/>
       <span>Healthy</span>
     </div>
       </div>

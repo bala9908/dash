@@ -1,6 +1,9 @@
 import React from 'react'
 import data from '../../data'
 import '../../Styles/Healthstatuscard.css'
+import teeth from '../../assets/Teeth.png'
+import lung from '../../assets/Lungs.png'
+import bone from '../../assets/Bones.png'
 function HealthStatuscard() {
   return (
     <>
@@ -8,7 +11,7 @@ function HealthStatuscard() {
  <div className='container'>
   <div className='healthcard'>
    <div className='healthcard-content'>
-    <img src={`${data[2].image3}`} className='partimage' />
+    <img src={lung} className='partimage' />
     <p >Lungs</p>
    </div>
    <p className='date'>Date:18-Nov-2024 </p>
@@ -20,7 +23,7 @@ function HealthStatuscard() {
 
    <div className='healthcard'>
    <div className='healthcard-content'>
-    <img src={`${data[3].image4}`} className='teethimage' />
+    <img src={teeth} className='teethimage' />
     <p >Teeth</p>
    </div>
    <p className='date'>Date:18-Nov-2024 </p>
@@ -33,7 +36,7 @@ function HealthStatuscard() {
 
    <div className='healthcard'>
    <div className='healthcard-content'>
-    <img src={`${data[4].image5}`} className='partimage' />
+    <img src={bone} className='partimage' />
     <p >Bone</p>
    </div>
    <p className='date'>Date:18-Nov-2024 </p>

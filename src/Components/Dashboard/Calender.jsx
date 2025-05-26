@@ -3,6 +3,14 @@ import '../../Styles/Calender.css'
 import { SquarePlus,UserPen,MoveLeft,MoveRight} from 'lucide-react'
 import data from '../../data'
 import scheduleData from '../../sheduledates'
+import heart from '../../assets/Heart.png'
+import teeth from '../../assets/Teeth.png'
+import strong from '../../assets/Strong.png'
+import syreng from '../../assets/green-syringe-element-vector_53876-140866-removebg-preview.png'
+import eye from '../../assets/Eye.png'
+import icon from '../../assets/doctor-icon-flat-art-black-white-isolated_1223784-16889-removebg-preview.png'
+
+
 function Calender() {
     const today = new Date().getDate();
   return (
@@ -169,7 +177,7 @@ function Calender() {
               
             </div>
            
-               <img src={`${data[3].image4}`} className='image-icon'/>
+               <img src={teeth} className='image-icon'/>
         </div>
     </div>
 
@@ -193,7 +201,7 @@ function Calender() {
              <p className='time'>Dr.Ramya</p>
             </div>
            
-               <img src={`${data[5].image6}`} className='image-icon'/>
+               <img src={strong} className='image-icon'/>
         </div>
 
     </div>
@@ -211,7 +219,7 @@ function Calender() {
               <p>11:00AM</p>
             </div>
 
-             <img src={`${data[6].image7}`} className='image-icon'/>
+             <img src={syreng} className='image-icon'/>
            
         </div>
     </div>
@@ -224,7 +232,7 @@ function Calender() {
                  <p className='time'>14:00PM</p>
             </div>
 
-            <img src={`${data[7].Image8}`} className='image-icon'/>
+            <img src={eye} className='image-icon'/>
             
         </div>
     </div>
@@ -263,12 +271,12 @@ function Calender() {
                <div className='lastcard-1'>
         <div className='middle-dentist-card'>
             <div >
-                <p className='healthcheckpu'>Healthcheckup Complete</p>
+                <p className='healthcheckpu'>Cardiologist</p>
                 {/* <img src={`${data[4].image5}`} className='image-icon'/> */}
               <p>11:00AM</p>
             </div>
 
-             <img src={`${data[0].image1}`} className='image-icon'/>
+             <img src={heart} className='image-icon'/>
            
         </div>
     </div>
@@ -276,12 +284,12 @@ function Calender() {
                 <div className='lastcard-1'>
         <div className='middle-dentist-card'>
             <div >
-                <p className='healthcheckpu'>Healthcheckup Complete</p>
+                <p className='healthcheckpu'>Neurologist</p>
                 {/* <img src={`${data[4].image5}`} className='image-icon'/> */}
               <p>11:00AM</p>
             </div>
 
-             <img src={`${data[8].Image9}`} className='image-icon'/>
+             <img src={icon} className='image-icon'/>
            
         </div>
     </div>
