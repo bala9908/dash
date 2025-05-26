@@ -5,6 +5,7 @@ import image from '../../assets/human-body-frontal_1048-5345-removebg-preview.pn
 import { Heart } from 'lucide-react'
 import data from '../../data'
 import HealthStatuscard from './HealthStatuscard'
+import leg from '../../assets/Leg.png'
 
 function Humanstructure() {
   
@@ -37,7 +38,7 @@ function Humanstructure() {
 
         <div className="dot dot-leg" title="Leg - Fractured">
              <div className="card-1">
-     <img src={`${data[1].image2}`}  className='image-2'/>
+     <img src={leg}  className='image-2'/>
       <span>Healthy</span>
     </div>
      
