@@ -1,0 +1,144 @@
+.header-1{
+    margin: 1px;
+    width: 105%;
+    display: flex;
+   
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.border{
+    display: flex;
+}
+.border h3{
+    color: rgb(4, 4, 105);
+}
+.dropdown{
+    display: flex;
+    
+    align-items: center;
+    font-size: 10px;
+   
+    margin: 5px;
+   color: rgb(4, 4, 105);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+ margin-top: 55px;
+}
+.image-container{
+    /* border: 1px solid red; */
+    position: relative;
+  width: 60%;
+  max-width: 300px;/* or whatever fits your layout */  
+
+}
+
+
+
+
+.dot {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: red; 
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.dot-heart {
+  top: 28%;
+  left: 46%;
+}
+
+
+.dot-lungs {
+  top: 28%;
+  left: 48%;
+}
+
+
+.dot-teeth {
+  top: 12%;
+  left: 50%;
+}
+
+.dot-leg {
+  top: 55%;
+  left: 40%;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 100%; 
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 13px;
+  white-space: nowrap;
+  /* use red for Critical etc */
+  background-color: rgb(85, 252, 85);
+  width: 90px;
+}
+
+.image-1{
+  width: 30%;
+}
+
+.card-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+}
+
+.partimage{
+  width: 10%;
+}
+
+.card-1{
+  
+  position: absolute;
+  top: 0;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 6px 5px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 13px;
+  white-space: nowrap;
+  right: 80%;
+ width: 80px;
+ background-color: rgb(85, 252, 85);
+
+}
+.image-2{
+  width: 20%;
+  
+}
+
+.healthcard{
+ margin-left: 20px;
+}
+.flex{
+ display: flex; 
+}
+
+.gap{
+  gap: 10px;
+  margin: 10px;
+}
+
+
+
+

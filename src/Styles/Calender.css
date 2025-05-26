@@ -1,0 +1,222 @@
+.calender{
+    width: 40%;
+    min-height: 100vh;
+    /* border:  1px solid red; */
+    font-family: "Roboto";
+    color: rgb(4, 4, 55);
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.user-icon-container{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(4, 4, 55);
+    margin-top: 5%;
+
+}
+
+.icon-calender-container{
+    display: flex;
+}
+.calender-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.date-container{
+    width: 98%;
+    height: 45vh;
+    /* border: 1px solid red; */
+    margin: 5px;
+      display: flex;
+      color: navy;
+      margin: 10px;
+}
+.date-card{
+    height: 90%;
+    width: 50px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+
+}
+.clicked-card{
+    background-color: rgb(170, 173, 229);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.clicked-date{
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+   
+    margin-top: 3px;
+}
+.clicked-date-1{
+    background-color: rgb(108, 108, 176);
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.middlecards-container{
+    width: 100%;
+    height: 30vh;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.image-icon{
+    width: 30%;
+}
+.dentist{
+   
+    margin-top: 5px;
+}
+
+.middlecard-1{
+    width: 40%;
+    height: 80%;
+    background-color: navy;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+.time{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.dentist-card{
+  display: flex;
+  justify-content: center;
+   
+}
+.middlecard-2{
+    width: 60%;
+    height: 90%;
+    background-color: rgb(149, 149, 215);;
+    color: black;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    margin: 5px;
+}
+
+.heading{
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+.middlecards-container-2{
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.middlecard-3{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(149, 149, 215);
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.middlecard-4{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(139, 139, 216);
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+
+.middlecard-2{
+    width: 60%;
+    height: 80%;
+    background-color: rgb(149, 149, 215);;
+    color: black;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    margin: 5px;
+}
+
+.last-container{
+    width: 100%;
+    height: 17vh;
+    margin: 5px;
+    display: flex;
+    
+    
+}
+.last-card{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(148, 148, 236);
+   
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 1px;   
+}
+.last-card-1{
+    display: flex;
+    justify-content: space-between;
+}
+.image-icon-1{
+    width: 20px;
+}
+.s{
+    height: 2px;
+}
+.healthcheckpu{
+    font-size: 10px;
+}
+.middle-dentist-card{
+    display: flex;
+    justify-content: center;
+}
+.heading-1{
+    
+}
+.lastcard-1{
+      width: 50%;
+    height: 90%;
+    background-color:  rgb(159, 159, 199);
+    color: rgb(12, 12, 53);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.margin{
+    margin: 5px;
+}
+
+
+.disabled {
+  background-color: #f0f0f0;
+  color: #999;
+  pointer-events: none;
+}
+.navy-time {
+  background-color: navy;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+
+}
+.date-card.today {
+  /* border: 2px solid #007bff; */
+  background-color: #e6f0ff;
+}
+
+.light-navy-time {
+  color: #6b7a8f;
+}
+
+.no-time {
+  color: #bbb;
+} 
+/* styles.css */
