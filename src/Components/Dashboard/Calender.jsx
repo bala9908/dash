@@ -28,117 +28,6 @@ function Calender() {
         </div>
     </div>
 
-    {/* <div className='date-container'>
-            <div className='date-card'>
-                <div>
-                    <p>Mon</p>
-                    <h3>25</h3>
-                    <p>11:00</p>
-                      <p>11:00</p>
-                        <p>11:00</p>
-                </div>
-            </div>
-
-
-             <div className='date-card clicked-card'>
-                <div>
-                    <p>Tue</p>
-                    <h3>26</h3>
-                    <p>8:00</p>
-                      <p className='clicked-date'>9:00</p>
-                        <p>10:00</p>
-                </div>
-            </div>
-
-
-            
-             <div className='date-card'>
-                <div>
-                    <p>Wed</p>
-                    <h3>27</h3>
-                    <p>12:00</p>
-                      <p>----</p>
-                        <p>1:00</p>
-                </div>
-            </div>
-
-
-            
-             <div className='date-card'>
-                <div>
-                    <p>Thu</p>
-                    <h3>28</h3>
-                    <p>10:00</p>
-                      <p className='clicked-date-1'>11:00</p>
-                        <p>----</p>
-                </div>
-            </div>
-
-
-             <div className='date-card'>
-                <div>
-                    <p>Fri</p>
-                    <h3>29</h3>
-                    <p>----</p>
-                      <p className='clicked-date-1'>14:00</p>
-                        <p>16:00</p>
-                </div>
-            </div>
-
-            <div className='date-card'>
-                <div>
-                    <p>Sat</p>
-                    <h3>30</h3>
-                    <p className='clicked-date-1'>12:00</p>
-                      <p >14:00</p>
-                        <p>15:00</p>
-                </div>
-            </div>
-
-
-        <div className='date-card'>
-                <div>
-                    <p>Sun</p>
-                    <h3>31</h3>
-                    <p className='clicked-date-1'>9:00</p>
-                      <p>10:00</p>
-                        <p>11:00</p>
-                </div>
-            </div>
-    </div> */}
-
-        
-    {/* <div className="date-container">
-      {scheduleData.map((item, index) => (
-        <div
-          key={index}
-          className={`date-card ${
-            item.clickedTime ? 'clicked-card' : ''
-          }`}
-        >
-          <div>
-            <p>{item.day}</p>
-            <h3>{item.date}</h3>
-            {item.times.map((time, idx) => (
-              <p
-                key={idx}
-                className={
-                  time === item.clickedTime
-                    ? item.day === 'Tue'
-                      ? 'clicked-date'
-                      : 'clicked-date-1'
-                    : ''
-                }
-              >
-                {time}
-              </p>
-            ))}
-          </div>
-        </div>
-      ))}
-    </div> */}
-
-
     <div className='date-container'>
       {
         scheduleData.map(({day, date, times, appointments, isDisabled},index)=>(
@@ -183,16 +72,7 @@ function Calender() {
 
 
      <div className='middlecard-2'>
-        {/* <div className='dentist-card'>
-            <div className='dentist'>
-                <h5 className='heading'>Psysiotheraphy Appoinment</h5>
-                <p className='time'>09:00-11:00</p>
-             <p className='time'>Dr.Ramya</p>
-            </div>
-            
-             <img src={`${data[5].image6}`} className='image-icon'/>
-        </div>
-    </div> */}
+
 
      <div className='dentist-card'>
             <div className='dentist'>
@@ -215,7 +95,6 @@ function Calender() {
         <div className='middle-dentist-card'>
             <div >
                 <p className='healthcheckpu'>Healthcheckup Complete</p>
-                {/* <img src={`${data[4].image5}`} className='image-icon'/> */}
               <p>11:00AM</p>
             </div>
 
@@ -240,30 +119,6 @@ function Calender() {
   <div className='margin'>on saturday</div>
 
 
- {/* <div className='middlecards-container-3'>
-    <div className='middlecard-5'>
-        <div className='dentist-card'>
-            <div className='dentist'>
-                <h5>Dentist</h5>
-                <img src={`${data[4].image5}`} className='image-icon'/>
-            </div>
-            <p className='time'>09:00-11:00</p>
-             <p className='time'>Dr.Ramya</p>
-        </div>
-    </div>
-
-
-     <div className='middlecard-6'>
-        <div className='dentist-card'>
-            <div className='dentist'>
-                <h5 className='heading'>Psysiotheraphy Appoinment</h5>
-                <img src={`${data[5].image6}`} className='image-icon'/>
-            </div>
-            <p className='time'>09:00-11:00</p>
-             <p className='time'>Dr.Ramya</p>
-        </div>
-    </div>
-    </div> */}
 
 
 
@@ -272,7 +127,7 @@ function Calender() {
         <div className='middle-dentist-card'>
             <div >
                 <p className='healthcheckpu'>Cardiologist</p>
-                {/* <img src={`${data[4].image5}`} className='image-icon'/> */}
+              
               <p>11:00AM</p>
             </div>
 
@@ -285,7 +140,6 @@ function Calender() {
         <div className='middle-dentist-card'>
             <div >
                 <p className='healthcheckpu'>Neurologist</p>
-                {/* <img src={`${data[4].image5}`} className='image-icon'/> */}
               <p>11:00AM</p>
             </div>
 
